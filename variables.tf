@@ -1,9 +1,9 @@
-variable "org_service_url" {
+variable "azuredevops_org_service_url" {
   type        = string
   description = "Azure Organization Service URL"
 }
 
-variable "personal_access_token" {
+variable "azuredevops_personal_access_token" {
   type        = string
   description = "Azure Devops Personal Access Token"
 }
@@ -23,7 +23,7 @@ variable "azurerm_spn_tenantid" {
   description = "azurerm spn tenant id"
 }
 
-variable "service_endpoint_name" {
+variable "azuredevops_service_endpoint_name" {
   type        = string
   description = "service endpoint name"
   default     = "Service Connection AzureRM"

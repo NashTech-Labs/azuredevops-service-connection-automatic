@@ -8,7 +8,7 @@ variable "azuredevops_personal_access_token" {
   description = "Azure Devops Personal Access Token"
 }
 
-variable "azure_devops_project" {
+variable "azuredevops_project" {
   type        = string
   description = "Azure Devops Project"
 }
